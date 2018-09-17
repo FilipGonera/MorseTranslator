@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D48E90421237DD800ED327E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D48E90321237DD800ED327E /* AppDelegate.swift */; };
+		1D48E90621237DD800ED327E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D48E90521237DD800ED327E /* MainViewController.swift */; };
+		1D48E90921237DD800ED327E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D48E90721237DD800ED327E /* Main.storyboard */; };
+		1D48E90E21237DEA00ED327E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D48E90D21237DE900ED327E /* Assets.xcassets */; };
+		1D48E91121237DEA00ED327E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D48E90F21237DEA00ED327E /* LaunchScreen.storyboard */; };
+		1D5566C8212EC307000159E0 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5566C7212EC307000159E0 /* FirstViewController.swift */; };
+		1D5BE1D12148758F00934A94 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5BE1D02148758F00934A94 /* Dictionary.swift */; };
+		1D9D9DD021487C5C000F92BF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9D9DCF21487C5C000F92BF /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D48E90021237DD800ED327E /* MorseTranslator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MorseTranslator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D48E90321237DD800ED327E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1D48E90521237DD800ED327E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1D48E90821237DD800ED327E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D48E90D21237DE900ED327E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D48E91021237DEA00ED327E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1D48E91221237DEA00ED327E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D5566C7212EC307000159E0 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		1D5BE1D02148758F00934A94 /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		1D9D9DCF21487C5C000F92BF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D48E8FD21237DD800ED327E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D120324214ED64C00B035EC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1D5566C7212EC307000159E0 /* FirstViewController.swift */,
+				1D48E90521237DD800ED327E /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1D48E8F721237DD700ED327E = {
+			isa = PBXGroup;
+			children = (
+				1D48E90221237DD800ED327E /* MorseTranslator */,
+				1D48E90121237DD800ED327E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D48E90121237DD800ED327E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D48E90021237DD800ED327E /* MorseTranslator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D48E90221237DD800ED327E /* MorseTranslator */ = {
+			isa = PBXGroup;
+			children = (
+				1D48E90321237DD800ED327E /* AppDelegate.swift */,
+				1D9D9DCE21487C40000F92BF /* Extensions */,
+				1D5BE1CD21483F9800934A94 /* Model */,
+				1D120324214ED64C00B035EC /* Controller */,
+				1D48E90721237DD800ED327E /* Main.storyboard */,
+				1D48E90F21237DEA00ED327E /* LaunchScreen.storyboard */,
+				1D48E90D21237DE900ED327E /* Assets.xcassets */,
+				1D48E91221237DEA00ED327E /* Info.plist */,
+			);
+			path = MorseTranslator;
+			sourceTree = "<group>";
+		};
+		1D5BE1CD21483F9800934A94 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1D5BE1D02148758F00934A94 /* Dictionary.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1D9D9DCE21487C40000F92BF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1D9D9DCF21487C5C000F92BF /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D48E8FF21237DD800ED327E /* MorseTranslator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D48E91521237DEA00ED327E /* Build configuration list for PBXNativeTarget "MorseTranslator" */;
+			buildPhases = (
+				1D48E8FC21237DD800ED327E /* Sources */,
+				1D48E8FD21237DD800ED327E /* Frameworks */,
+				1D48E8FE21237DD800ED327E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MorseTranslator;
+			productName = Flashlight;
+			productReference = 1D48E90021237DD800ED327E /* MorseTranslator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D48E8F821237DD700ED327E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Filip  Gonera";
+				TargetAttributes = {
+					1D48E8FF21237DD800ED327E = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 1D48E8FB21237DD700ED327E /* Build configuration list for PBXProject "MorseTranslator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D48E8F721237DD700ED327E;
+			productRefGroup = 1D48E90121237DD800ED327E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D48E8FF21237DD800ED327E /* MorseTranslator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D48E8FE21237DD800ED327E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D48E91121237DEA00ED327E /* LaunchScreen.storyboard in Resources */,
+				1D48E90E21237DEA00ED327E /* Assets.xcassets in Resources */,
+				1D48E90921237DD800ED327E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D48E8FC21237DD800ED327E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D48E90621237DD800ED327E /* MainViewController.swift in Sources */,
+				1D9D9DD021487C5C000F92BF /* Extensions.swift in Sources */,
+				1D5BE1D12148758F00934A94 /* Dictionary.swift in Sources */,
+				1D48E90421237DD800ED327E /* AppDelegate.swift in Sources */,
+				1D5566C8212EC307000159E0 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1D48E90721237DD800ED327E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D48E90821237DD800ED327E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1D48E90F21237DEA00ED327E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D48E91021237DEA00ED327E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D48E91321237DEA00ED327E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D48E91421237DEA00ED327E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D48E91621237DEA00ED327E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LM229H4966;
+				INFOPLIST_FILE = MorseTranslator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FG.MorseTranslator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D48E91721237DEA00ED327E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LM229H4966;
+				INFOPLIST_FILE = MorseTranslator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FG.MorseTranslator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D48E8FB21237DD700ED327E /* Build configuration list for PBXProject "MorseTranslator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D48E91321237DEA00ED327E /* Debug */,
+				1D48E91421237DEA00ED327E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D48E91521237DEA00ED327E /* Build configuration list for PBXNativeTarget "MorseTranslator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D48E91621237DEA00ED327E /* Debug */,
+				1D48E91721237DEA00ED327E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D48E8F821237DD700ED327E /* Project object */;
+}
